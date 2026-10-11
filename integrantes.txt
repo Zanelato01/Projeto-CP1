@@ -2,4 +2,4 @@ Integrantes:
 Nome: Heitor Zanelato Almeida - 57652
       Joao Pedro Perez - 576203
 
-GitHub: https://github.com/Zanelato01/Projeto-CP1
+GitHub: https://github.com/Zanelato01/Projeto-CP1.git
