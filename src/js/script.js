@@ -97,3 +97,11 @@ if (media >= 6) {
 } else {
     console.log("Aluno REPROVADO");
 }
+
+// EXERCÍCIO 8 - Template string (``) com o nome
+titulo(8);
+
+let nome = prompt("Exercício 8 - Digite seu nome");
+
+// `` ${} = concatenação
+console.log(`Olá dev ${nome}`);
