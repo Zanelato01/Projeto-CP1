@@ -1,6 +1,5 @@
-// CHECKPOINT 1 - WEB DEVELOPMENT
+// CHECKPOINT 1 - WEB DEV
 
-// Função que imprime o cabeçalho de cada exercício no console
 function titulo(numero) {
     console.log("***************************************************");
     console.log("Exercício " + numero);
@@ -38,7 +37,7 @@ if (imc < 18.5) {
 titulo(3);
 
 for (let contagem = 1; contagem <= 10; contagem++) {
-    console.log("o valor da contagem é: " + contagem + "!");
+    console.log("o valor da contagem é: " + contagem);
 }
 
 // EXERCÍCIO 4 - Listar o Array no console

@@ -1,4 +1,5 @@
 Integrantes:
-Nome: SEU NOME COMPLETO - RM: SEU RM
+Nome: Heitor Zanelato Almeida - 57652
+      Joao Pedro Perez - 576203
 
-GitHub: https://github.com/Zanelato01/NOME-DO-REPOSITORIO
+GitHub: https://github.com/Zanelato01/Projeto-CP1
