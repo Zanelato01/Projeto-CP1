@@ -33,3 +33,10 @@ if (imc < 18.5) {
 } else {
     console.log("Acima do peso");
 }
+
+// EXERCÍCIO 3 - Repetição com for até 10
+titulo(3);
+
+for (let contagem = 1; contagem <= 10; contagem++) {
+    console.log("o valor da contagem é: " + contagem + "!");
+}
