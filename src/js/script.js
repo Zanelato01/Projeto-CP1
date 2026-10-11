@@ -52,3 +52,13 @@ console.log(vingadores);
 for (let i = 0; i < vingadores.length; i++) {
     console.log(i + " - " + vingadores[i]);
 }
+
+// EXERCÍCIO 5 - Permissão com condicional ternária
+titulo(5);
+
+// condição ? se verdadeiro : se falso
+let temPermissao = true;
+console.log(temPermissao ? "Usuário TEM permissão" : "Usuário NÃO tem permissão");
+
+temPermissao = false;
+console.log(temPermissao ? "Usuário TEM permissão" : "Usuário NÃO tem permissão");
