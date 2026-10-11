@@ -125,3 +125,15 @@ if (senhaInformada !== senhaAtual) {
         console.log("Erro: a nova senha deve ser diferente da senha atual.");
     }
 }
+
+// EXERCÍCIO 10 - Valor final com desconto
+titulo(10);
+
+let valorProduto = 200;
+let valorDesconto = 30;
+
+let valorFinal = valorProduto - valorDesconto;
+
+console.log("Valor do produto: R$", valorProduto);
+console.log("Desconto: R$", valorDesconto);
+console.log("Valor final: R$", valorFinal);
