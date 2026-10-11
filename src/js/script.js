@@ -77,3 +77,23 @@ if (usuarioDigitado === usuarioCadastrado && senhaDigitada === senhaCadastrada) 
 } else {
     console.log("Falha de autenticação: usuário ou senha incorretos.");
 }
+
+// EXERCÍCIO 7 - Média de 7 notas
+titulo(7);
+
+const notas = [7, 5.5, 8, 6, 4.5, 9, 7.5];
+
+let soma = 0;
+for (let i = 0; i < notas.length; i++) {
+    soma = soma + notas[i];
+}
+
+let media = soma / notas.length;
+console.log("Notas:", notas);
+console.log("Média:", media.toFixed(2));
+
+if (media >= 6) {
+    console.log("Aluno APROVADO");
+} else {
+    console.log("Aluno REPROVADO");
+}
