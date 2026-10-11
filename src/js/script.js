@@ -105,3 +105,23 @@ let nome = prompt("Exercício 8 - Digite seu nome");
 
 // `` ${} = concatenação
 console.log(`Olá dev ${nome}`);
+
+// EXERCÍCIO 9 - Mudar a senha (nova senha deve ser diferente da atual)
+titulo(9);
+
+let senhaAtual = "1234";
+
+let senhaInformada = prompt("Exercício 9 - Digite a senha ATUAL (dica: 1234)");
+
+if (senhaInformada !== senhaAtual) {
+    console.log("Senha atual incorreta. Não é possível trocar a senha.");
+} else {
+    let novaSenha = prompt("Digite a NOVA senha");
+
+    if (novaSenha !== senhaAtual) {
+        senhaAtual = novaSenha;
+        console.log("Senha alterada com sucesso!");
+    } else {
+        console.log("Erro: a nova senha deve ser diferente da senha atual.");
+    }
+}
