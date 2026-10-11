@@ -40,3 +40,15 @@ titulo(3);
 for (let contagem = 1; contagem <= 10; contagem++) {
     console.log("o valor da contagem é: " + contagem + "!");
 }
+
+// EXERCÍCIO 4 - Listar o Array no console
+titulo(4);
+
+const vingadores = ["Thor", "Hulk", "Capitão América", "Arqueiro", "Viúva Negra"];
+
+console.log(vingadores);
+
+// Mostrando um por linha
+for (let i = 0; i < vingadores.length; i++) {
+    console.log(i + " - " + vingadores[i]);
+}
