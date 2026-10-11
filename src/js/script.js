@@ -62,3 +62,18 @@ console.log(temPermissao ? "Usuário TEM permissão" : "Usuário NÃO tem permis
 
 temPermissao = false;
 console.log(temPermissao ? "Usuário TEM permissão" : "Usuário NÃO tem permissão");
+
+// EXERCÍCIO 6 - Login com usuário e senha
+titulo(6);
+
+const usuarioCadastrado = "admin";
+const senhaCadastrada = "1234";
+
+let usuarioDigitado = prompt("Exercício 6 - Digite o usuário (dica: admin)");
+let senhaDigitada = prompt("Exercício 6 - Digite a senha (dica: 1234)");
+
+if (usuarioDigitado === usuarioCadastrado && senhaDigitada === senhaCadastrada) {
+    console.log("Login realizado com sucesso!");
+} else {
+    console.log("Falha de autenticação: usuário ou senha incorretos.");
+}
